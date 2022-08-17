@@ -87,6 +87,7 @@ console.log(largeCountries)
 */
 //---------------------------------------------------------------------------------------------------------
 // 5. logical operators
+/*
 let dayOfMonth = 13
 let weekday = "Friday"
 
@@ -97,5 +98,18 @@ if (dayOfMonth === 13 && weekday === 'Friday') {
 } else {
   console.log("other day")
 }
+*/
+//---------------------------------------------------------------------------------------------------------
+// 6.Rock paper scissor
+/*
+let hands = ["rock", "paper", "scissor"]
 
+// Create a function that returns a random item from the array
+function randomItem() {
+  let randomHands = Math.floor(Math.random() * 3);
+  return hands[randomHands];
+}
+
+console.log(randomItem());
+*/
 //---------------------------------------------------------------------------------------------------------
